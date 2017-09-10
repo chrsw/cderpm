@@ -1,69 +1,192 @@
-"-dt-interface system-medium-r-normal-xxs serif-10-100-75-75-p-56-iso8859-1"   "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1"
-"-dt-interface system-medium-r-normal-xs serif-11-80-100-100-p-63-iso8859-1"   "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1"
-"-dt-interface system-medium-r-normal-s serif-14-140-75-75-p-80-iso8859-1"     "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
-"-dt-interface system-medium-r-normal-m serif-17-120-100-100-p-96-iso8859-1"   "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1"
-"-dt-interface system-medium-r-normal-l serif-19-190-75-75-p-109-iso8859-1"    "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1"
-"-dt-interface system-medium-r-normal-xl serif-20-140-100-100-p-114-iso8859-1" "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1"
-"-dt-interface system-medium-r-normal-xxl serif-24-240-75-75-p-137-iso8859-1"  "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1"
-"-dt-interface user-bold-r-normal-xxs sans-10-100-75-75-m-60-iso8859-1"        "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1"
-"-dt-interface user-bold-r-normal-xs sans-11-80-100-100-m-70-iso8859-1"        "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1"
-"-dt-interface user-bold-r-normal-s sans-14-140-75-75-m-90-iso8859-1"          "-misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1"
-"-dt-interface user-bold-r-normal-m sans-17-120-100-100-m-100-iso8859-1"       "-misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-1"
-"-dt-interface user-bold-r-normal-l sans-19-190-75-75-m-110-iso8859-1"         "-misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-1"
-"-dt-interface user-bold-r-normal-xl sans-20-140-100-100-m-120-iso8859-1"      "-misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1"
-"-dt-interface user-bold-r-normal-xxl sans-24-240-75-75-m-140-iso8859-1"       "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1"
-"-dt-interface user-medium-r-normal-xxs sans-10-100-75-75-m-60-iso8859-1"      "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1" 
-"-dt-interface user-medium-r-normal-xs sans-11-80-100-100-m-70-iso8859-1"      "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1"
-"-dt-interface user-medium-r-normal-s sans-14-140-75-75-m-90-iso8859-1"        "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
-"-dt-interface user-medium-r-normal-m sans-17-120-100-100-m-100-iso8859-1"     "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1"
-"-dt-interface user-medium-r-normal-l sans-19-190-75-75-m-110-iso8859-1"       "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1"
-"-dt-interface user-medium-r-normal-xl sans-20-140-100-100-m-120-iso8859-1"    "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1"
-"-dt-interface user-medium-r-normal-xxl sans-24-240-75-75-m-140-iso8859-1"     "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1"
+! $Xorg: fonts.alias,v 1.3 2000/08/21 16:42:31 coskrey Exp $
+fixed        -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+variable     -*-helvetica-bold-r-normal-*-*-120-*-*-*-*-iso8859-1
+5x7          -misc-fixed-medium-r-normal--7-70-75-75-c-50-iso8859-1
+5x8          -misc-fixed-medium-r-normal--8-80-75-75-c-50-iso8859-1
+6x9          -misc-fixed-medium-r-normal--9-90-75-75-c-60-iso8859-1
+6x10         -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+6x12         -misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1
+6x13         -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+6x13bold     -misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1
+7x13         -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1
+7x13bold     -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-1
+7x13euro     -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-15
+7x13eurobold -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-15
+7x14         -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+7x14bold     -misc-fixed-bold-r-normal--14-130-75-75-c-70-iso8859-1
+8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
+8x13bold     -misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-1
+8x16         -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+9x15         -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+9x15bold     -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+10x20        -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+12x24        -sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1
+nil2         -misc-nil-medium-r-normal--2-20-75-75-c-10-misc-fontspecific
 
-"-adobe-helvetica-bold-r-normal--12-*-*-*-*-*-iso8859-1"  "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1"
-"-adobe-helvetica-bold-r-normal--12-*-*-*-*-*-iso8859-9"  "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-9"
-"-adobe-helvetica-bold-r-normal--12-*-*-*-*-*-iso8859-15" "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15"
+heb6x13      -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-8
+heb8x13      -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-8
 
-"-dt-interface system-medium-r-normal-xxs serif-10-100-75-75-p-56-iso8859-9"   "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-9"
-"-dt-interface system-medium-r-normal-xs serif-11-80-100-100-p-63-iso8859-9"   "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-9"
-"-dt-interface system-medium-r-normal-s serif-14-140-75-75-p-80-iso8859-9"     "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-9"
-"-dt-interface system-medium-r-normal-m serif-17-120-100-100-p-96-iso8859-9"   "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-9"
-"-dt-interface system-medium-r-normal-l serif-19-190-75-75-p-109-iso8859-9"    "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-9"
-"-dt-interface system-medium-r-normal-xl serif-20-140-100-100-p-114-iso8859-9" "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-9"
-"-dt-interface system-medium-r-normal-xxl serif-24-240-75-75-p-137-iso8859-9"  "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-9"
-"-dt-interface user-bold-r-normal-xxs sans-10-100-75-75-m-60-iso8859-9"        "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-9"
-"-dt-interface user-bold-r-normal-xs sans-11-80-100-100-m-70-iso8859-9"        "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-9"
-"-dt-interface user-bold-r-normal-s sans-14-140-75-75-m-90-iso8859-9"          "-misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-9"
-"-dt-interface user-bold-r-normal-m sans-17-120-100-100-m-100-iso8859-9"       "-misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-9"
-"-dt-interface user-bold-r-normal-l sans-19-190-75-75-m-110-iso8859-9"         "-misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-9"
-"-dt-interface user-bold-r-normal-xl sans-20-140-100-100-m-120-iso8859-9"      "-misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-9"
-"-dt-interface user-bold-r-normal-xxl sans-24-240-75-75-m-140-iso8859-9"       "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-9"
-"-dt-interface user-medium-r-normal-xxs sans-10-100-75-75-m-60-iso8859-9"      "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-9" 
-"-dt-interface user-medium-r-normal-xs sans-11-80-100-100-m-70-iso8859-9"      "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-9"
-"-dt-interface user-medium-r-normal-s sans-14-140-75-75-m-90-iso8859-9"        "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-9"
-"-dt-interface user-medium-r-normal-m sans-17-120-100-100-m-100-iso8859-9"     "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-9"
-"-dt-interface user-medium-r-normal-l sans-19-190-75-75-m-110-iso8859-9"       "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-9"
-"-dt-interface user-medium-r-normal-xl sans-20-140-100-100-m-120-iso8859-9"    "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-9"
-"-dt-interface user-medium-r-normal-xxl sans-24-240-75-75-m-140-iso8859-9"     "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-9"
+k14          -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1983-0
+a14          -misc-fixed-medium-r-normal--14-*-*-*-*-*-iso8859-1
+r14          -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
+rk14         -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
+r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
+rk16         -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
+r24          -sony-fixed-medium-r-normal--24-*-*-*-*-*-jisx0201.1976-0
+rk24         -sony-fixed-medium-r-normal--24-*-*-*-*-*-jisx0201.1976-0
+kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
+8x16kana     -sony-fixed-medium-r-normal--16-120-100-100-c-80-jisx0201.1976-0
+8x16romankana -sony-fixed-medium-r-normal--16-120-100-100-c-80-jisx0201.1976-0
+12x24kana     -sony-fixed-medium-r-normal--24-170-100-100-c-120-jisx0201.1976-0
+12x24romankana -sony-fixed-medium-r-normal--24-170-100-100-c-120-jisx0201.1976-0
+kanji16      -jis-fixed-medium-r-normal--16-*-*-*-*-*-jisx0208.1983-0
+kanji24      -jis-fixed-medium-r-normal--24-*-*-*-*-*-jisx0208.1983-0
 
-"-dt-interface system-medium-r-normal-xxs serif-10-100-75-75-p-56-iso8859-15"   "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-15"
-"-dt-interface system-medium-r-normal-xs serif-11-80-100-100-p-63-iso8859-15"   "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-15"
-"-dt-interface system-medium-r-normal-s serif-14-140-75-75-p-80-iso8859-15"     "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15"
-"-dt-interface system-medium-r-normal-m serif-17-120-100-100-p-96-iso8859-15"   "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-15"
-"-dt-interface system-medium-r-normal-l serif-19-190-75-75-p-109-iso8859-15"    "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-15"
-"-dt-interface system-medium-r-normal-xl serif-20-140-100-100-p-114-iso8859-15" "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-15"
-"-dt-interface system-medium-r-normal-xxl serif-24-240-75-75-p-137-iso8859-15"  "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-15"
-"-dt-interface user-bold-r-normal-xxs sans-10-100-75-75-m-60-iso8859-15"        "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-15"
-"-dt-interface user-bold-r-normal-xs sans-11-80-100-100-m-70-iso8859-15"        "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-15"
-"-dt-interface user-bold-r-normal-s sans-14-140-75-75-m-90-iso8859-15"          "-misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-15"
-"-dt-interface user-bold-r-normal-m sans-17-120-100-100-m-100-iso8859-15"       "-misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-15"
-"-dt-interface user-bold-r-normal-l sans-19-190-75-75-m-110-iso8859-15"         "-misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-15"
-"-dt-interface user-bold-r-normal-xl sans-20-140-100-100-m-120-iso8859-15"      "-misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-15"
-"-dt-interface user-bold-r-normal-xxl sans-24-240-75-75-m-140-iso8859-15"       "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-15"
-"-dt-interface user-medium-r-normal-xxs sans-10-100-75-75-m-60-iso8859-15"      "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-15" 
-"-dt-interface user-medium-r-normal-xs sans-11-80-100-100-m-70-iso8859-15"      "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-15"
-"-dt-interface user-medium-r-normal-s sans-14-140-75-75-m-90-iso8859-15"        "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-15"
-"-dt-interface user-medium-r-normal-m sans-17-120-100-100-m-100-iso8859-15"     "-misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-15"
-"-dt-interface user-medium-r-normal-l sans-19-190-75-75-m-110-iso8859-15"       "-misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-15"
-"-dt-interface user-medium-r-normal-xl sans-20-140-100-100-m-120-iso8859-15"    "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-15"
-"-dt-interface user-medium-r-normal-xxl sans-24-240-75-75-m-140-iso8859-15"     "-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-15"
+hanzigb16st "-isas-song ti-medium-r-normal--16-160-72-72-c-160-gb2312.1980-0"
+hanzigb24st "-isas-song ti-medium-r-normal--24-240-72-72-c-240-gb2312.1980-0"
+hanzigb16fs "-isas-fangsong ti-medium-r-normal--16-160-72-72-c-160-gb2312.1980-0"
+
+olcursor   "-sun-open look cursor-----12-120-75-75-p-160-sunolcursor-1"
+olglyph-10 "-sun-open look glyph-----10-100-75-75-p-101-sunolglyph-1"
+olglyph-12 "-sun-open look glyph-----12-120-75-75-p-113-sunolglyph-1"
+olglyph-14 "-sun-open look glyph-----14-140-75-75-p-128-sunolglyph-1"
+olglyph-19 "-sun-open look glyph-----19-190-75-75-p-154-sunolglyph-1"
+
+-misc-fixed-medium-r-normal--7-50-100-100-c-50-iso8859-1 -misc-fixed-medium-r-normal--7-70-75-75-c-50-iso8859-1
+-misc-fixed-medium-r-normal--8-60-100-100-c-50-iso8859-1 -misc-fixed-medium-r-normal--8-80-75-75-c-50-iso8859-1
+-misc-fixed-medium-r-normal--9-80-100-100-c-60-iso8859-1 -misc-fixed-medium-r-normal--9-90-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-normal--10-70-100-100-c-60-iso8859-1 -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-semicondensed--12-90-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+-misc-fixed-bold-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-bold-r-semicondensed--13-120-75-75-c-60-iso8859-1
+-misc-fixed-medium-r-normal--13-100-100-100-c-70-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-70-iso8859-1
+-misc-fixed-bold-r-normal--13-100-100-100-c-70-iso8859-1 -misc-fixed-bold-r-normal--13-120-75-75-c-70-iso8859-1
+-misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
+-misc-fixed-bold-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-bold-r-normal--13-120-75-75-c-80-iso8859-1
+-misc-fixed-medium-r-normal--14-110-100-100-c-70-iso8859-1 -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+-misc-fixed-medium-r-normal--15-120-100-100-c-90-iso8859-1 -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+-misc-fixed-bold-r-normal--15-120-100-100-c-90-iso8859-1 -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+-misc-fixed-medium-r-normal--20-140-100-100-c-100-iso8859-1 -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+-misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-8 -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-8
+-misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-8 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-8
+-sony-fixed-medium-r-normal--16-150-75-75-c-80-iso8859-1 -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+-sony-fixed-medium-r-normal--16-150-75-75-c-80-jisx0201.1976-0 -sony-fixed-medium-r-normal--16-120-100-100-c-80-jisx0201.1976-0
+-sony-fixed-medium-r-normal--24-230-75-75-c-120-iso8859-1 -sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1
+-sony-fixed-medium-r-normal--24-230-75-75-c-120-jisx0201.1976-0 -sony-fixed-medium-r-normal--24-170-100-100-c-120-jisx0201.1976-0
+-jis-fixed-medium-r-normal--16-110-100-100-c-160-jisx0208.1983-0 -jis-fixed-medium-r-normal--16-150-75-75-c-160-jisx0208.1983-0
+-jis-fixed-medium-r-normal--24-170-100-100-c-240-jisx0208.1983-0 -jis-fixed-medium-r-normal--24-230-75-75-c-240-jisx0208.1983-0
+"-dt-interface system-medium-r-normal-xxs sans-10-100-72-72-p-61-iso8859-1"  "-adobe-helvetica-medium-r-normal--10-*-75-75-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-xs sans-11-110-72-72-p-64-iso8859-1"   "-adobe-helvetica-medium-r-normal--11-80-100-100-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-s sans-12-120-72-72-p-73-iso8859-1"    "-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1"
+"-dt-interface system-medium-r-normal-m sans-13-130-72-72-p-87-iso8859-1"    "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-l sans-15-150-72-72-p-100-iso8859-1"   "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-xl sans-18-180-72-72-p-114-iso8859-1"  "-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1"
+"-dt-interface system-medium-r-normal-xxl sans-21-210-72-72-p-123-iso8859-1" "-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1"
+
+"-dt-interface user-medium-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"   "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"    "-adobe-courier-medium-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-s serif-12-120-72-72-m-80-iso8859-1"     "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-medium-r-normal-m serif-13-130-72-72-m-90-iso8859-1"     "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-l serif-15-150-72-72-m-110-iso8859-1"    "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"   "-adobe-courier-medium-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-medium-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"  "-adobe-courier-medium-r-normal-*-20-140-100-100-m-110-iso8859-1"
+
+"-dt-interface user-bold-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"     "-adobe-courier-bold-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"      "-adobe-courier-bold-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-s serif-12-120-72-72-m-80-iso8859-1"       "-adobe-courier-bold-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-bold-r-normal-m serif-13-130-72-72-m-90-iso8859-1"       "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-l serif-15-150-72-72-m-110-iso8859-1"      "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"     "-adobe-courier-bold-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-bold-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"    "-adobe-courier-bold-r-normal--20-140-100-100-m-110-iso8859-1"`
+"-dt-interface system-medium-r-normal-xxs sans-10-100-72-72-p-61-iso8859-1"  "-adobe-helvetica-medium-r-normal--10-*-75-75-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-xs sans-11-110-72-72-p-64-iso8859-1"   "-adobe-helvetica-medium-r-normal--11-80-100-100-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-s sans-12-120-72-72-p-73-iso8859-1"    "-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1"
+"-dt-interface system-medium-r-normal-m sans-13-130-72-72-p-87-iso8859-1"    "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-l sans-15-150-72-72-p-100-iso8859-1"   "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-xl sans-18-180-72-72-p-114-iso8859-1"  "-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1"
+"-dt-interface system-medium-r-normal-xxl sans-21-210-72-72-p-123-iso8859-1" "-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1"
+
+"-dt-interface user-medium-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"   "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"    "-adobe-courier-medium-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-s serif-12-120-72-72-m-80-iso8859-1"     "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-medium-r-normal-m serif-13-130-72-72-m-90-iso8859-1"     "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-l serif-15-150-72-72-m-110-iso8859-1"    "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"   "-adobe-courier-medium-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-medium-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"  "-adobe-courier-medium-r-normal-*-20-140-100-100-m-110-iso8859-1"
+
+"-dt-interface user-bold-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"     "-adobe-courier-bold-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"      "-adobe-courier-bold-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-s serif-12-120-72-72-m-80-iso8859-1"       "-adobe-courier-bold-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-bold-r-normal-m serif-13-130-72-72-m-90-iso8859-1"       "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-l serif-15-150-72-72-m-110-iso8859-1"      "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"     "-adobe-courier-bold-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-bold-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"    "-adobe-courier-bold-r-normal--20-140-100-100-m-110-iso8859-1"`
+"-dt-interface system-medium-r-normal-xxs sans-10-100-72-72-p-61-iso8859-1"  "-adobe-helvetica-medium-r-normal--10-*-75-75-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-xs sans-11-110-72-72-p-64-iso8859-1"   "-adobe-helvetica-medium-r-normal--11-80-100-100-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-s sans-12-120-72-72-p-73-iso8859-1"    "-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1"
+"-dt-interface system-medium-r-normal-m sans-13-130-72-72-p-87-iso8859-1"    "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-l sans-15-150-72-72-p-100-iso8859-1"   "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-xl sans-18-180-72-72-p-114-iso8859-1"  "-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1"
+"-dt-interface system-medium-r-normal-xxl sans-21-210-72-72-p-123-iso8859-1" "-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1"
+
+"-dt-interface user-medium-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"   "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"    "-adobe-courier-medium-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-s serif-12-120-72-72-m-80-iso8859-1"     "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-medium-r-normal-m serif-13-130-72-72-m-90-iso8859-1"     "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-l serif-15-150-72-72-m-110-iso8859-1"    "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"   "-adobe-courier-medium-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-medium-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"  "-adobe-courier-medium-r-normal-*-20-140-100-100-m-110-iso8859-1"
+
+"-dt-interface user-bold-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"     "-adobe-courier-bold-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"      "-adobe-courier-bold-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-s serif-12-120-72-72-m-80-iso8859-1"       "-adobe-courier-bold-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-bold-r-normal-m serif-13-130-72-72-m-90-iso8859-1"       "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-l serif-15-150-72-72-m-110-iso8859-1"      "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"     "-adobe-courier-bold-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-bold-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"    "-adobe-courier-bold-r-normal--20-140-100-100-m-110-iso8859-1"`
+"-dt-interface system-medium-r-normal-xxs sans-10-100-72-72-p-61-iso8859-1"  "-adobe-helvetica-medium-r-normal--10-*-75-75-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-xs sans-11-110-72-72-p-64-iso8859-1"   "-adobe-helvetica-medium-r-normal--11-80-100-100-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-s sans-12-120-72-72-p-73-iso8859-1"    "-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1"
+"-dt-interface system-medium-r-normal-m sans-13-130-72-72-p-87-iso8859-1"    "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-l sans-15-150-72-72-p-100-iso8859-1"   "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-xl sans-18-180-72-72-p-114-iso8859-1"  "-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1"
+"-dt-interface system-medium-r-normal-xxl sans-21-210-72-72-p-123-iso8859-1" "-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1"
+
+"-dt-interface user-medium-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"   "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"    "-adobe-courier-medium-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-s serif-12-120-72-72-m-80-iso8859-1"     "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-medium-r-normal-m serif-13-130-72-72-m-90-iso8859-1"     "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-l serif-15-150-72-72-m-110-iso8859-1"    "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"   "-adobe-courier-medium-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-medium-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"  "-adobe-courier-medium-r-normal-*-20-140-100-100-m-110-iso8859-1"
+
+"-dt-interface user-bold-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"     "-adobe-courier-bold-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"      "-adobe-courier-bold-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-s serif-12-120-72-72-m-80-iso8859-1"       "-adobe-courier-bold-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-bold-r-normal-m serif-13-130-72-72-m-90-iso8859-1"       "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-l serif-15-150-72-72-m-110-iso8859-1"      "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"     "-adobe-courier-bold-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-bold-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"    "-adobe-courier-bold-r-normal--20-140-100-100-m-110-iso8859-1"`
+"-dt-interface system-medium-r-normal-xxs sans-10-100-72-72-p-61-iso8859-1"  "-adobe-helvetica-medium-r-normal--10-*-75-75-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-xs sans-11-110-72-72-p-64-iso8859-1"   "-adobe-helvetica-medium-r-normal--11-80-100-100-p-56-iso8859-1"
+"-dt-interface system-medium-r-normal-s sans-12-120-72-72-p-73-iso8859-1"    "-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1"
+"-dt-interface system-medium-r-normal-m sans-13-130-72-72-p-87-iso8859-1"    "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-l sans-15-150-72-72-p-100-iso8859-1"   "-adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1"
+"-dt-interface system-medium-r-normal-xl sans-18-180-72-72-p-114-iso8859-1"  "-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1"
+"-dt-interface system-medium-r-normal-xxl sans-21-210-72-72-p-123-iso8859-1" "-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1"
+
+"-dt-interface user-medium-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"   "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"    "-adobe-courier-medium-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-medium-r-normal-s serif-12-120-72-72-m-80-iso8859-1"     "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-medium-r-normal-m serif-13-130-72-72-m-90-iso8859-1"     "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-l serif-15-150-72-72-m-110-iso8859-1"    "-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-medium-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"   "-adobe-courier-medium-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-medium-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"  "-adobe-courier-medium-r-normal-*-20-140-100-100-m-110-iso8859-1"
+
+"-dt-interface user-bold-r-normal-xxs serif-10-100-72-72-m-60-iso8859-1"     "-adobe-courier-bold-r-normal--10-100-75-75-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-xs serif-11-110-72-72-m-60-iso8859-1"      "-adobe-courier-bold-r-normal--11-80-100-100-m-60-iso8859-1"
+"-dt-interface user-bold-r-normal-s serif-12-120-72-72-m-80-iso8859-1"       "-adobe-courier-bold-r-normal--12-120-75-75-m-70-iso8859-1"
+"-dt-interface user-bold-r-normal-m serif-13-130-72-72-m-90-iso8859-1"       "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-l serif-15-150-72-72-m-110-iso8859-1"      "-adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1"
+"-dt-interface user-bold-r-normal-xl serif-18-180-72-72-m-120-iso8859-1"     "-adobe-courier-bold-r-normal--18-180-75-75-m-110-iso8859-1"
+"-dt-interface user-bold-r-normal-xxl serif-21-210-72-72-m-140-iso8859-1"    "-adobe-courier-bold-r-normal--20-140-100-100-m-110-iso8859-1"
