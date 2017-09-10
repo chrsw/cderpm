@@ -24,7 +24,7 @@
 4) You probably want to disable the firewall or figure out which ports to
    poke holes for.
 
-5) To avoid RPC related errors, also had to run:
-       Centos 7.3:
+5) If there are RPC errors:
+       CentOS 7.3:
            sudo systemctl add-wants multi-user.target rpcbind
        
