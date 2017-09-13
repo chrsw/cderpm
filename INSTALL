@@ -28,7 +28,7 @@
        CentOS 7.x:
            sudo systemctl add-wants multi-user.target rpcbind
        
-6) Switch from GDM to dtlogin:
+6) If not using the dtlogin.service file from repo. Switch from GDM to dtlogin:
        Centos 7.x:
            sudo systemctl disable gdm.service
            sudo systemctl enable dtlogin.service
