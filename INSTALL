@@ -25,6 +25,11 @@
    poke holes for.
 
 5) If there are RPC errors:
-       CentOS 7.3:
+       CentOS 7.x:
            sudo systemctl add-wants multi-user.target rpcbind
        
+6) Switch from GDM to dtlogin:
+       Centos 7.x:
+           sudo systemctl disable gdm.service
+           sudo systemctl enable dtlogin.service
+           
